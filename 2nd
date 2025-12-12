@@ -1,0 +1,17 @@
+name = "stavan"
+friend = "param"
+another_friend = "krudit"
+apple = '''Hello , 
+My name is stavan.
+and I know you .
+I think your name is Keval.
+"good morning"'''
+print(apple)
+print(name[0])
+print(name[1])
+print(name[2])
+print(name[3])
+print(name[4])
+print(name[5])
+for character in friend:
+ print(character)
