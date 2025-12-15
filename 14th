@@ -1,0 +1,24 @@
+name_etc = ["stavan","keval","maharshi",132,True]
+print(name_etc)
+print(type(name_etc))
+print(name_etc[0])
+print(name_etc[1])
+print(name_etc[2])
+print(name_etc[3])
+print(name_etc[4])
+print(len(name_etc))
+print(name_etc[-4])     # -4 = len(name_etc - 4)  
+print(name_etc[5-1])
+if "stavan" in name_etc :
+    print("yes")
+else:
+    print("no")
+
+if "h" in name_etc[2]:
+    print("yes")
+else :
+    print("no")
+
+print(name_etc[1:4])
+print(name_etc[0:-3])
+print(name_etc[0:-1:2])     #jump index

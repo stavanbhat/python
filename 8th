@@ -1,0 +1,11 @@
+for S in range(10):
+    if(S == 9):
+        print("It is my lucky nummber")
+    print(S)
+    print("It is completed")
+for S in range(19 ,23):
+    print(S)
+    print("It is completed")
+for S in range(2 , 12 , 3): # starting , ending , increment
+    print(S)
+    print("It is completed")  

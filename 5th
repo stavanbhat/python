@@ -1,0 +1,16 @@
+age = int(input("what is your age: "))
+print("your age is ", age)
+print( age > 18)
+print( age < 18)
+print( age >= 18)
+print( age <= 18)
+print( age != 18)
+if (age >= 18 and age <= 70) :
+    print("you can drive")
+    print("But there is a limite that you have to follow the government's rules")
+elif( age <= 10 ):
+    print("you have to stay with your parents,don't go alone")
+else:
+    print("you can't drive")
+    print("if you drive, we will push you into jail")
+print("Have a nice day, thank you")

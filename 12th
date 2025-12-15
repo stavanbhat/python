@@ -1,0 +1,22 @@
+print("only first 10 people can attempt this")
+def luckey_draw():
+    first_latter = input("write first latter of your name: ")
+    worth = int(input("Enter your total worth: "))
+    catagory1 = input("Enter your catagory: ")
+    if first_latter == "s":
+        if worth <= 2500000 :
+            if catagory1 == "general" :
+                
+                print("you can win luckey deaw")
+    else:
+        print("you can't win")
+luckey_draw()
+luckey_draw()
+luckey_draw()
+luckey_draw()
+luckey_draw()
+luckey_draw()
+luckey_draw()
+luckey_draw()
+luckey_draw()
+luckey_draw()

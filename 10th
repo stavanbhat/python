@@ -1,0 +1,11 @@
+for i in range(11):
+    if i == 5:
+        break
+    print("5 x", i+1 , "=", 5*(i+1))
+print("given loop is broken from i = 5")
+
+for j in range(11):
+    if( j == 7):
+        continue
+    print("6 x", j+1, "=", 6*(j+1))
+print("thereis no 6*8 because we use here continue statement")

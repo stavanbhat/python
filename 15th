@@ -1,0 +1,29 @@
+marks = [12, 1, 2, 43, 9, 0, 54, 77, 2]
+marks.sort()
+print(marks)
+marks.sort(reverse=True)
+print(marks)
+marks.append(23)
+print(marks)
+marks.reverse()
+print(marks)
+print(marks.index(2))   #it says about given number'
+print(marks.count(2))   #it says that how many numbers are in the list
+m = marks
+m[1] = 222
+print(marks)
+
+k = marks.copy()
+k[1] = 111
+print(marks)
+print(k)
+
+marks.insert(3, 123)
+print(marks)
+
+l = [100, 200, 300]
+p = marks + l
+print(p)
+
+marks.extend(l)
+print(marks)
